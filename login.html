@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>JKUAT Student Portal - Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Varela+Round&display=swap">
+  <style>
+    :root {
+      --green: #69c37b;
+      --red: #d91413;
+      --font-primary: 'Roboto','Varela Round',Helvetica,Arial,Tahoma,Verdana,sans-serif;
+      --font-rounded: 'Varela Round','Roboto',Helvetica,Arial,Tahoma,Verdana,sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-primary);
+      background: linear-gradient(135deg,#e8f5e9,#e8eaed);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+    .login-page {
+      width: 100%;
+      max-width: 460px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+    }
+    .login-above {
+      text-align: center;
+    }
+    .login-above img {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+      border-radius: 50%;
+      margin-bottom: 14px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .login-hi {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--green);
+      font-family: var(--font-rounded);
+      line-height: 1.15;
+    }
+    .login-hi-sub {
+      font-size: 15px;
+      font-weight: 500;
+      color: #1a1a1a;
+      margin-top: 6px;
+    }
+    .login-card {
+      width: 100%;
+      background: #fff;
+      border-radius: 16px;
+      padding: 26px 24px 22px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
+    .login-selected-name {
+      display: none;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+    .login-selected-name strong { color: var(--green); }
+    .login-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 6px;
+      display: block;
+    }
+    .login-field-wrap {
+      position: relative;
+      margin-bottom: 16px;
+    }
+    .login-input {
+      width: 100%;
+      border-radius: 8px;
+      border: 1.5px solid #d0d0d0;
+      padding: 12px 44px 12px 14px;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .login-input::placeholder { color: #b0b0b0; }
+    .login-input:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 2px rgba(105,195,123,0.22);
+    }
+    .login-field-wrap i.ri-user-line {
+      position:absolute;
+      right:13px;
+      top:50%;
+      transform:translateY(-50%);
+      color:#bbb;
+      font-size:18px;
+      pointer-events:none;
+    }
+    .login-eye-btn {
+      position: absolute;
+      right: 13px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #999;
+      font-size: 19px;
+      padding: 0;
+      line-height: 1;
+    }
+    .login-eye-btn:hover { color: #444; }
+    .login-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .login-remember {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      color: #333;
+      cursor: pointer;
+    }
+    .login-remember input {
+      width: 15px;
+      height: 15px;
+      accent-color: var(--green);
+      cursor: pointer;
+    }
+    .login-forgot {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--green);
+      text-decoration: none;
+    }
+    .login-forgot:hover { text-decoration: underline; }
+    .login-btn {
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      padding: 13px;
+      font-size: 16px;
+      font-weight: 700;
+      background: var(--green);
+      color: #fff;
+      cursor: pointer;
+      font-family: var(--font-rounded);
+      transition: background 0.15s, transform 0.05s;
+    }
+    .login-btn:hover { background: #52a863; }
+    .login-btn:active { transform: translateY(1px); }
+    .login-hint {
+      font-size: 12px;
+      color: #999;
+      text-align: center;
+      margin-top: 8px;
+    }
+    .login-hint strong { color:#555; }
+    .login-error {
+      color: var(--red);
+      font-size: 13px;
+      text-align: center;
+      margin-top: 6px;
+      min-height: 16px;
+    }
+    .login-signup {
+      margin-top: 14px;
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+    }
+    .login-signup a {
+      color: var(--green);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .login-signup a:hover { text-decoration: underline; }
+    @media (max-width: 480px) {
+      .login-card { padding: 24px 18px 20px; }
+      .login-hi { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="page-login" class="login-page">
+    <div class="login-above">
+      <img
+        id="loginLogo"
+        alt="JKUAT Logo"
+        src="jkuatlogo.jpg">
+      <div class="login-hi">Hi, welcome back</div>
+      <div class="login-hi-sub">Please fill in your details to log in</div>
+    </div>
+
+    <div class="login-card">
+      <div class="login-selected-name" id="loginWelcome">
+        Welcome back, <strong id="loginWelcomeText"></strong>!
+      </div>
+
+      <label class="login-label">Username</label>
+      <div class="login-field-wrap">
+        <input type="text"
+               id="usernameInput"
+               class="login-input"
+               placeholder="e.g. brian, alice, john..."
+               oninput="onUsernameType()"
+               autocomplete="off">
+        <i class="ri-user-line"></i>
+      </div>
+
+      <label class="login-label">Password</label>
+      <div class="login-field-wrap">
+        <input type="password"
+               id="loginPassword"
+               class="login-input"
+               placeholder="Enter your Password">
+        <button class="login-eye-btn" type="button" onclick="togglePwd()">
+          <i class="ri-eye-off-line" id="eyeIcon"></i>
+        </button>
+      </div>
+
+      <div class="login-row">
+        <label class="login-remember">
+          <input type="checkbox" id="rememberMe">
+          Remember me
+        </label>
+        <a href="#" class="login-forgot">Forgot Password?</a>
+      </div>
+
+      <button class="login-btn" type="button" onclick="doLogin()">Sign In</button>
+      <p class="login-hint">
+        Demo accounts:
+        <strong>brian, alice, john, grace, peter</strong>
+        &nbsp;|&nbsp; password:
+        <strong>password</strong>
+      </p>
+      <div class="login-error" id="loginError"></div>
+    </div>
+
+    <p class="login-signup">
+      Don't have an account?
+      <a href="#">Sign Up</a>
+    </p>
+  </div>
+
+  <script>
+    /* Students are stored in a JSON file for easy editing */
+    let STUDENTS = [];
+
+    async function loadStudents() {
+      const errEl = document.getElementById('loginError');
+      try {
+        const res = await fetch('students.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (!Array.isArray(data)) throw new Error('Invalid students.json format');
+        STUDENTS = data;
+        if (errEl && errEl.textContent === 'Loading accounts...') errEl.textContent = '';
+      } catch (e) {
+        // If you open the HTML directly (file://), fetch may be blocked; run a local server for JSON loading.
+        if (errEl) errEl.textContent = 'Could not load students.json. If you opened the file directly, run a local server and refresh.';
+        STUDENTS = [];
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', function () {
+      const btn = document.querySelector('.login-btn');
+      const errEl = document.getElementById('loginError');
+      if (btn) btn.disabled = true;
+      if (errEl) errEl.textContent = 'Loading accounts...';
+      loadStudents().finally(() => {
+        if (btn) btn.disabled = false;
+        onUsernameType();
+      });
+    });
+
+    /* Live username hint */
+    function onUsernameType() {
+      const val  = document.getElementById('usernameInput').value.trim().toLowerCase();
+      const wrap = document.getElementById('loginWelcome');
+      const txt  = document.getElementById('loginWelcomeText');
+      if (!Array.isArray(STUDENTS) || STUDENTS.length === 0) {
+        wrap.style.display = 'none';
+        return;
+      }
+      const s    = STUDENTS.find(st => st.id === val);
+      if (s) {
+        txt.textContent = s.name.split(' ')[0];
+        wrap.style.display = 'block';
+      } else {
+        wrap.style.display = 'none';
+      }
+    }
+
+    /* Password eye toggle */
+    function togglePwd() {
+      const inp  = document.getElementById('loginPassword');
+      const icon = document.getElementById('eyeIcon');
+      if (inp.type === 'password') {
+        inp.type = 'text';
+        icon.className = 'ri-eye-line';
+      } else {
+        inp.type = 'password';
+        icon.className = 'ri-eye-off-line';
+      }
+    }
+
+    /* Sign in and go to dashboard page */
+    function doLogin() {
+      const username = document.getElementById('usernameInput').value.trim().toLowerCase();
+      const password = document.getElementById('loginPassword').value;
+      const errEl    = document.getElementById('loginError');
+
+      if (!Array.isArray(STUDENTS) || STUDENTS.length === 0) {
+        errEl.textContent = 'Accounts not loaded yet. Please refresh (and run a local server if needed).';
+        return;
+      }
+      const student = STUDENTS.find(s => s.id === username);
+
+      if (!student) {
+        errEl.textContent = 'Username not found. Try: brian, alice, john, grace or peter.';
+        return;
+      }
+      if (password !== student.password) {
+        errEl.textContent = 'Incorrect password.';
+        return;
+      }
+
+      errEl.textContent = '';
+
+      // Persist session for dashboard page
+      localStorage.setItem('jkuat_current_student', JSON.stringify(student));
+
+      // Redirect into dashboard (original SPA file)
+      window.location.href = 'jkuat_dashboard.html';
+    }
+
+    // Allow Enter key to trigger login when focused in a field
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        const active = document.activeElement;
+        if (active && (active.id === 'usernameInput' || active.id === 'loginPassword')) {
+          doLogin();
+        }
+      }
+    });
+  </script>
+</body>
+</html>
+

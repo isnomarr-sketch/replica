@@ -1,0 +1,17 @@
+{
+  "name": "jkuat-student-portal",
+  "version": "1.0.0",
+  "description": "JKUAT Student Portal - A fun project for managing student information and fees",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "JKUAT",
+    "portal",
+    "student"
+  ],
+  "author": "",
+  "license": "ISC"
+}
