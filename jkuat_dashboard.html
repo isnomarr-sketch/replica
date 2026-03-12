@@ -1087,42 +1087,6 @@ function renderCurrentStudentFees() {
     }
   }
 
-  // Enforce a per-student "Fee Balance" cap under 19,000 by adjusting the last transaction.
-  // This keeps the displayed balance, the per-row balance, and the TOTAL section consistent.
-  (function enforceBalanceCap() {
-    if (!semesters.length) return;
-    var lastSem = semesters[semesters.length - 1];
-    if (!lastSem || !lastSem.rows || !lastSem.rows.length) return;
-    var lastRow = lastSem.rows[lastSem.rows.length - 1];
-    if (!lastRow) return;
-
-    var currentBal = toNumberKes(lastRow.balance);
-    var studentKey = (data.studentId || sid || data.studentName || 'student') + '|' + (data.regNo || '');
-    var seed = hashSeed(studentKey);
-    var target = (seed % 19000) + ((seed % 100) / 100); // 0.00 .. 18999.99
-    if (target >= 19000) target = 18999.99;
-
-    var diff = currentBal - target; // + means reduce balance; - means increase balance
-    if (Math.abs(diff) < 0.01) {
-      lastRow.balance = formatKes(target, true);
-      return;
-    }
-
-    var debit = toNumberKes(lastRow.debit);
-    var credit = toNumberKes(lastRow.credit);
-
-    if (diff > 0) {
-      // Reduce balance: increase the last payment (credit) by diff.
-      credit = credit + diff;
-      lastRow.credit = formatKes(credit, true);
-    } else {
-      // Increase balance: increase the last charge (debit) by -diff.
-      debit = debit + (-diff);
-      lastRow.debit = formatKes(debit, true);
-    }
-    lastRow.balance = formatKes(target, true);
-  })();
-
   var totalDebit = 0;
   var totalCredit = 0;
   var finalBalance = 0;
