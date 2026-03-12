@@ -11,142 +11,303 @@
     "yearOfStudy": "3",
     "semesters": [
       {
-        "title": "SEMESTER 1 2021/2022",
+        "title": "SEMESTER 1 2023/2024",
         "rows": [
           {
             "no": 1,
-            "date": "28/09/2021",
-            "ref": "441607",
-            "description": "INVOICE ADJUSTMENT HOSTEL FEE",
-            "debit": "KES 20,000.00",
-            "credit": "0.00",
-            "balance": "KES -16,300.00"
+            "date": "02/09/2023",
+            "ref": "SFI30001",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 95,850.00",
+            "credit": "KES 0.00",
+            "balance": "KES 95,850.00"
           },
           {
             "no": 2,
-            "date": "30/09/2021",
-            "ref": "SFI70130",
-            "description": "STANDARD INVOICE",
-            "debit": "KES 21,150.00",
-            "credit": "KES 0.00",
-            "balance": "KES 4,850.00"
+            "date": "15/10/2023",
+            "ref": "753401",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 50,000.00",
+            "balance": "KES 45,850.00"
           }
         ]
       },
       {
-        "title": "SEMESTER 2 2021/2022",
+        "title": "SEMESTER 2 2023/2024",
         "rows": [
           {
             "no": 1,
-            "date": "05/02/2022",
-            "ref": "528436",
-            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
-            "debit": "KES 0.00",
-            "credit": "KES 10,000.00",
-            "balance": "KES -10,000.00"
+            "date": "05/02/2024",
+            "ref": "SFI30102",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 95,850.00",
+            "credit": "KES 0.00",
+            "balance": "KES 141,700.00"
           },
           {
             "no": 2,
-            "date": "01/03/2022",
-            "ref": "SFI201368",
-            "description": "STANDARD INVOICE",
-            "debit": "KES 16,170.00",
-            "credit": "KES 0.00",
-            "balance": "KES 6,170.00"
+            "date": "22/02/2024",
+            "ref": "641528",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 45,850.00",
+            "balance": "KES 95,850.00"
           }
         ]
       },
       {
-        "title": "SEMESTER 1 2022/2023",
+        "title": "SEMESTER 1 2024/2025",
         "rows": [
           {
             "no": 1,
-            "date": "15/09/2022",
-            "ref": "SFI241135",
+            "date": "03/09/2024",
+            "ref": "SFI30201",
             "description": "STANDARD INVOICE",
-            "debit": "KES 18,776.00",
+            "debit": "KES 95,850.00",
             "credit": "KES 0.00",
-            "balance": "KES 18,776.00"
+            "balance": "KES 191,700.00"
           },
           {
             "no": 2,
-            "date": "30/11/2022",
-            "ref": "683841",
+            "date": "18/10/2024",
+            "ref": "758932",
             "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
             "debit": "KES 0.00",
-            "credit": "KES 18,780.00",
-            "balance": "KES -4.00"
+            "credit": "KES 95,850.00",
+            "balance": "KES 95,850.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2024/2025",
+        "rows": [
+          {
+            "no": 1,
+            "date": "10/02/2025",
+            "ref": "SFI30302",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 95,850.00",
+            "credit": "KES 0.00",
+            "balance": "KES 191,700.00"
+          },
+          {
+            "no": 2,
+            "date": "25/02/2025",
+            "ref": "691114",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 95,850.00",
+            "balance": "KES 95,850.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 1 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "05/09/2025",
+            "ref": "SFI30401",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 95,850.00",
+            "credit": "KES 0.00",
+            "balance": "KES 191,700.00"
+          },
+          {
+            "no": 2,
+            "date": "20/10/2025",
+            "ref": "764215",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 95,850.00",
+            "balance": "KES 95,850.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "06/02/2026",
+            "ref": "SFI30502",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 95,850.00",
+            "credit": "KES 0.00",
+            "balance": "KES 191,700.00"
+          },
+          {
+            "no": 2,
+            "date": "15/03/2026",
+            "ref": "771803",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 85,850.00",
+            "balance": "KES 10.00"
           }
         ]
       }
     ],
     "totals": {
-      "debit": "KES 150,250.00",
-      "credit": "KES 150,250.00",
-      "balance": "KES 0.00"
+      "debit": "KES 575,100.00",
+      "credit": "KES 575,090.00",
+      "balance": "KES 10.00"
     }
   },
   "christopher": {
     "studentId": "christopher",
     "studentName": "Christopher Kimutai Korir",
     "regNo": "SCT213-C003-0061/2023",
-    "programme": "B.SC. Data Science and Analytics",
+    "programme": "B.SC. Computer Science",
     "department": "DEPARTMENT OF INFORMATION TECHNOLOGY",
     "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
     "studentType": "SSP",
-    "admissionYear": "2020",
+    "admissionYear": "2023",
     "yearOfStudy": "4",
     "semesters": [
       {
-        "title": "SEMESTER 1 2020/2021",
+        "title": "SEMESTER 1 2023/2024",
         "rows": [
           {
             "no": 1,
-            "date": "05/10/2020",
-            "ref": "SFI10021",
+            "date": "04/09/2023",
+            "ref": "SFI31001",
             "description": "STANDARD INVOICE",
-            "debit": "KES 24,600.00",
+            "debit": "KES 89,650.00",
             "credit": "KES 0.00",
-            "balance": "KES 24,600.00"
+            "balance": "KES 89,650.00"
           },
           {
             "no": 2,
-            "date": "12/10/2020",
-            "ref": "531908",
+            "date": "18/10/2023",
+            "ref": "742856",
             "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
             "debit": "KES 0.00",
-            "credit": "KES 10,000.00",
-            "balance": "KES 14,600.00"
+            "credit": "KES 50,000.00",
+            "balance": "KES 39,650.00"
           }
         ]
       },
       {
-        "title": "SEMESTER 2 2020/2021",
+        "title": "SEMESTER 2 2023/2024",
         "rows": [
           {
             "no": 1,
-            "date": "15/02/2021",
-            "ref": "SFI20043",
+            "date": "07/02/2024",
+            "ref": "SFI31102",
             "description": "STANDARD INVOICE",
-            "debit": "KES 18,450.00",
+            "debit": "KES 89,650.00",
             "credit": "KES 0.00",
-            "balance": "KES 33,050.00"
+            "balance": "KES 129,300.00"
           },
           {
             "no": 2,
-            "date": "28/02/2021",
-            "ref": "607112",
-            "description": "JKUAT BARCLAY'S BANK FEE COLLECTION",
+            "date": "24/02/2024",
+            "ref": "650371",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
             "debit": "KES 0.00",
-            "credit": "KES 20,550.00",
+            "credit": "KES 39,650.00",
+            "balance": "KES 89,650.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 1 2024/2025",
+        "rows": [
+          {
+            "no": 1,
+            "date": "02/09/2024",
+            "ref": "SFI31201",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 89,650.00",
+            "credit": "KES 0.00",
+            "balance": "KES 179,300.00"
+          },
+          {
+            "no": 2,
+            "date": "19/10/2024",
+            "ref": "759248",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 89,650.00",
+            "balance": "KES 89,650.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2024/2025",
+        "rows": [
+          {
+            "no": 1,
+            "date": "08/02/2025",
+            "ref": "SFI31302",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 89,650.00",
+            "credit": "KES 0.00",
+            "balance": "KES 179,300.00"
+          },
+          {
+            "no": 2,
+            "date": "26/02/2025",
+            "ref": "705843",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 89,650.00",
+            "balance": "KES 89,650.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 1 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/09/2025",
+            "ref": "SFI31401",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 89,650.00",
+            "credit": "KES 0.00",
+            "balance": "KES 179,300.00"
+          },
+          {
+            "no": 2,
+            "date": "21/10/2025",
+            "ref": "765129",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 89,650.00",
+            "balance": "KES 89,650.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "09/01/2026",
+            "ref": "SFI31502",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 89,650.00",
+            "credit": "KES 0.00",
+            "balance": "KES 179,300.00"
+          },
+          {
+            "no": 2,
+            "date": "13/02/2026",
+            "ref": "772514",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 78,800.00",
             "balance": "KES 12,500.00"
           }
         ]
       }
     ],
     "totals": {
-      "debit": "KES 43,050.00",
-      "credit": "KES 30,550.00",
+      "debit": "KES 537,900.00",
+      "credit": "KES 525,400.00",
       "balance": "KES 12,500.00"
     }
   },
@@ -158,8 +319,8 @@
     "department": "DEPARTMENT OF IT",
     "schoolFaculty": "COPAS",
     "studentType": "PSSP",
-    "admissionYear": "2019",
-    "yearOfStudy": "4",
+    "admissionYear": "2023",
+    "yearOfStudy": "3",
     "semesters": [
       {
         "title": "SEMESTER 1 2023/2024",
@@ -169,26 +330,141 @@
             "date": "19/09/2023",
             "ref": "SFI34011",
             "description": "STANDARD INVOICE",
-            "debit": "KES 36,294.00",
+            "debit": "KES 48,500.00",
             "credit": "KES 0.00",
-            "balance": "KES 19,200.00"
+            "balance": "KES 48,500.00"
           },
           {
             "no": 2,
-            "date": "25/09/2023",
+            "date": "28/10/2023",
             "ref": "775420",
             "description": "JKUAT-EQUITY BNK KAKAMEGA",
             "debit": "KES 0.00",
             "credit": "KES 25,400.00",
-            "balance": "KES 0.00"
+            "balance": "KES 23,100.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2023/2024",
+        "rows": [
+          {
+            "no": 1,
+            "date": "12/02/2024",
+            "ref": "SFI34112",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 48,500.00",
+            "credit": "KES 0.00",
+            "balance": "KES 71,600.00"
+          },
+          {
+            "no": 2,
+            "date": "27/02/2024",
+            "ref": "682341",
+            "description": "JKUAT-EQUITY BNK KAKAMEGA",
+            "debit": "KES 0.00",
+            "credit": "KES 23,100.00",
+            "balance": "KES 48,500.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 1 2024/2025",
+        "rows": [
+          {
+            "no": 1,
+            "date": "16/09/2024",
+            "ref": "SFI34201",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 48,500.00",
+            "credit": "KES 0.00",
+            "balance": "KES 97,000.00"
+          },
+          {
+            "no": 2,
+            "date": "24/10/2024",
+            "ref": "751829",
+            "description": "JKUAT-EQUITY BNK KAKAMEGA",
+            "debit": "KES 0.00",
+            "credit": "KES 48,500.00",
+            "balance": "KES 48,500.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2024/2025",
+        "rows": [
+          {
+            "no": 1,
+            "date": "10/02/2025",
+            "ref": "SFI34302",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 48,500.00",
+            "credit": "KES 0.00",
+            "balance": "KES 97,000.00"
+          },
+          {
+            "no": 2,
+            "date": "28/02/2025",
+            "ref": "704562",
+            "description": "JKUAT-EQUITY BNK KAKAMEGA",
+            "debit": "KES 0.00",
+            "credit": "KES 48,500.00",
+            "balance": "KES 48,500.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 1 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "15/09/2025",
+            "ref": "SFI34401",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 48,500.00",
+            "credit": "KES 0.00",
+            "balance": "KES 97,000.00"
+          },
+          {
+            "no": 2,
+            "date": "22/10/2025",
+            "ref": "763405",
+            "description": "JKUAT-EQUITY BNK KAKAMEGA",
+            "debit": "KES 0.00",
+            "credit": "KES 48,500.00",
+            "balance": "KES 48,500.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "11/02/2026",
+            "ref": "SFI34502",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 48,500.00",
+            "credit": "KES 0.00",
+            "balance": "KES 97,000.00"
+          },
+          {
+            "no": 2,
+            "date": "12/03/2026",
+            "ref": "770341",
+            "description": "JKUAT-EQUITY BNK KAKAMEGA",
+            "debit": "KES 0.00",
+            "credit": "KES 47,000.00",
+            "balance": "KES 50.00"
           }
         ]
       }
     ],
     "totals": {
-      "debit": "KES 19,200.00",
-      "credit": "KES 19,200.00",
-      "balance": "KES 0.00"
+      "debit": "KES 291,000.00",
+      "credit": "KES 290,950.00",
+      "balance": "KES 50.00"
     }
   },
   "young": {
@@ -203,33 +479,56 @@
     "yearOfStudy": "1",
     "semesters": [
       {
-        "title": "SEMESTER 1 2022/2023",
+        "title": "SEMESTER 1 2025/2026",
         "rows": [
           {
             "no": 1,
-            "date": "03/10/2025",
-            "ref": "176738",
-            "description": "JKUAT KAREN CAMPUS-KCB",
-            "debit": "KES 0.00",
-            "credit": "KES 122,000.00",
-            "balance": "KES -122,000.00"
+            "date": "08/09/2025",
+            "ref": "SFI41001",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 115,800.00",
+            "credit": "KES 0.00",
+            "balance": "KES 115,800.00"
           },
           {
             "no": 2,
-            "date": "04/10/2026",
-            "ref": "SFI22088",
+            "date": "03/10/2025",
+            "ref": "761283",
+            "description": "JKUAT KAREN CAMPUS-KCB",
+            "debit": "KES 0.00",
+            "credit": "KES 122,000.00",
+            "balance": "KES -6,200.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "14/02/2026",
+            "ref": "SFI41102",
             "description": "STANDARD INVOICE",
-            "debit": "KES 121,654.00",
+            "debit": "KES 102,500.00",
             "credit": "KES 0.00",
-            "balance": "KES -364.00"
+            "balance": "KES 96,300.00"
+          },
+          {
+            "no": 2,
+            "date": "10/03/2026",
+            "ref": "770815",
+            "description": "JKUAT KAREN CAMPUS-KCB",
+            "debit": "KES 0.00",
+            "credit": "KES 96,000.00",
+            "balance": "KES 300.00"
           }
         ]
       }
     ],
     "totals": {
-      "debit": "KES 121,654.00",
-      "credit": "KES 122,000.00",
-      "balance": "KES -346.00"
+      "debit": "KES 218,300.00",
+      "credit": "KES 218,000.00",
+      "balance": "KES 300.00"
     }
   },
   "lewis": {
@@ -244,12 +543,12 @@
     "yearOfStudy": "1",
     "semesters": [
       {
-        "title": "SEMESTER 2 2025/2026",
+        "title": "SEMESTER 1 2025/2026",
         "rows": [
           {
             "no": 1,
-            "date": "10/02/2025",
-            "ref": "SFI52009",
+            "date": "10/09/2025",
+            "ref": "SFI52001",
             "description": "STANDARD INVOICE",
             "debit": "KES 106,590.00",
             "credit": "KES 0.00",
@@ -257,20 +556,20 @@
           },
           {
             "no": 2,
-            "date": "18/02/2025",
-            "ref": "691114",
+            "date": "20/10/2025",
+            "ref": "759641",
             "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
             "debit": "KES 0.00",
-            "credit": "KES 7,800.00",
-            "balance": "KES 10,000.00"
+            "credit": "KES 98,390.00",
+            "balance": "KES 8,200.00"
           }
         ]
       }
     ],
     "totals": {
-      "debit": "KES 17,800.00",
-      "credit": "KES 7,800.00",
-      "balance": "KES 10,000.00"
+      "debit": "KES 106,590.00",
+      "credit": "KES 98,390.00",
+      "balance": "KES 8,200.00"
     }
   }
 }
