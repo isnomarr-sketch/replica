@@ -139,7 +139,7 @@
           },
           {
             "no": 2,
-            "date": "15/03/2026",
+            "date": "12/02/2026",
             "ref": "771803",
             "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
             "debit": "KES 0.00",
@@ -164,7 +164,7 @@
     "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
     "studentType": "SSP",
     "admissionYear": "2023",
-    "yearOfStudy": "4",
+    "yearOfStudy": "3",
     "semesters": [
       {
         "title": "SEMESTER 1 2023/2024",
@@ -451,7 +451,7 @@
           },
           {
             "no": 2,
-            "date": "12/03/2026",
+            "date": "27/02/2026",
             "ref": "770341",
             "description": "JKUAT-EQUITY BNK KAKAMEGA",
             "debit": "KES 0.00",
@@ -515,7 +515,7 @@
           },
           {
             "no": 2,
-            "date": "10/03/2026",
+            "date": "24/02/2026",
             "ref": "770815",
             "description": "JKUAT KAREN CAMPUS-KCB",
             "debit": "KES 0.00",
