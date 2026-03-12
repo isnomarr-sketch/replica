@@ -1,13 +1,13 @@
 {
-  "brian": {
-    "studentId": "brian",
-    "studentName": "Brian Kiptoo Rono",
-    "regNo": "SCT213-C002-0084/2021",
-    "programme": "Bachelor of Science Degree in Data Science and Analytics",
+  "reaggy": {
+    "studentId": "reaggy",
+    "studentName": "Reaggy Odhimbo",
+    "regNo": "SCT213-C002-0057/2023",
+    "programme": "B.SC. Data Science and Analytics",
     "department": "DEPARTMENT OF INFORMATION TECHNOLOGY",
     "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
     "studentType": "GSSP",
-    "admissionYear": "2021",
+    "admissionYear": "2023",
     "yearOfStudy": "3",
     "semesters": [
       {
@@ -17,9 +17,9 @@
             "no": 1,
             "date": "28/09/2021",
             "ref": "441607",
-            "description": "JKUAT BARCLAY'S BANK FEE COLLECTION",
-            "debit": "KES 0.00",
-            "credit": "KES 16,300.00",
+            "description": "INVOICE ADJUSTMENT HOSTEL FEE",
+            "debit": "KES 20,000.00",
+            "credit": "0.00",
             "balance": "KES -16,300.00"
           },
           {
@@ -86,10 +86,10 @@
       "balance": "KES 0.00"
     }
   },
-  "alice": {
-    "studentId": "alice",
-    "studentName": "Alice Wanjiru Kamau",
-    "regNo": "SCT213-C003-0021/2020",
+  "Christopher ": {
+    "studentId": "Christopher",
+    "studentName": "Christopher Kimutai Korir",
+    "regNo": "SCT213-C003-0061/2023",
     "programme": "Bachelor of Science in Computer Science",
     "department": "DEPARTMENT OF COMPUTER SCIENCE",
     "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
@@ -150,16 +150,16 @@
       "balance": "KES 12,500.00"
     }
   },
-  "john": {
-    "studentId": "john",
-    "studentName": "John Ochieng Otieno",
-    "regNo": "SCT213-C001-0110/2019",
-    "programme": "Bachelor of Science in Information Technology",
-    "department": "DEPARTMENT OF INFORMATION TECHNOLOGY",
-    "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
-    "studentType": "SSP",
+  "don": {
+    "studentId": "don",
+    "studentName": "Don Silas",
+    "regNo": "SCT213-C002-0004/2023",
+    "programme": "Diploma in Project Management",
+    "department": "DEPARTMENT OF IT",
+    "schoolFaculty": "COPAS",
+    "studentType": "PSSP",
     "admissionYear": "2019",
-    "yearOfStudy": "5",
+    "yearOfStudy": "4",
     "semesters": [
       {
         "title": "SEMESTER 1 2023/2024",
@@ -169,7 +169,7 @@
             "date": "19/09/2023",
             "ref": "SFI34011",
             "description": "STANDARD INVOICE",
-            "debit": "KES 19,200.00",
+            "debit": "KES 36,294.00",
             "credit": "KES 0.00",
             "balance": "KES 19,200.00"
           },
@@ -177,9 +177,9 @@
             "no": 2,
             "date": "25/09/2023",
             "ref": "775420",
-            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "description": "JKUAT-EQUITY BNK KAKAMEGA",
             "debit": "KES 0.00",
-            "credit": "KES 19,200.00",
+            "credit": "KES 25,400.00",
             "balance": "KES 0.00"
           }
         ]
@@ -191,69 +191,69 @@
       "balance": "KES 0.00"
     }
   },
-  "grace": {
-    "studentId": "grace",
-    "studentName": "Grace Wambui Nyaga",
-    "regNo": "SCT213-C004-0042/2022",
-    "programme": "Bachelor of Science in Data Science and Analytics",
-    "department": "DEPARTMENT OF INFORMATION TECHNOLOGY",
-    "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
-    "studentType": "GSSP",
-    "admissionYear": "2022",
-    "yearOfStudy": "2",
+  "young": {
+    "studentId": "young",
+    "studentName": "Young Joseph Ring",
+    "regNo": "LSS201-C002-0116/2025",
+    "programme": "Bachelor of Law",
+    "department": "DEPARTMENT OF LAW",
+    "schoolFaculty": "SCHOOL OF LAW (SOL)",
+    "studentType": "PSSP",
+    "admissionYear": "2025",
+    "yearOfStudy": "1",
     "semesters": [
       {
         "title": "SEMESTER 1 2022/2023",
         "rows": [
           {
             "no": 1,
-            "date": "03/10/2022",
-            "ref": "441921",
-            "description": "JKUAT BARCLAY'S BANK FEE COLLECTION",
+            "date": "03/10/2025",
+            "ref": "176738",
+            "description": "JKUAT KAREN CAMPUS-KCB",
             "debit": "KES 0.00",
-            "credit": "KES 8,000.00",
-            "balance": "KES -8,000.00"
+            "credit": "KES 122,000.00",
+            "balance": "KES -122,000.00"
           },
           {
             "no": 2,
-            "date": "04/10/2022",
+            "date": "04/10/2026",
             "ref": "SFI22088",
             "description": "STANDARD INVOICE",
-            "debit": "KES 23,400.00",
+            "debit": "KES 121,654.00",
             "credit": "KES 0.00",
-            "balance": "KES 15,400.00"
+            "balance": "KES -364.00"
           }
         ]
       }
     ],
     "totals": {
-      "debit": "KES 23,400.00",
-      "credit": "KES 8,000.00",
-      "balance": "KES 15,400.00"
+      "debit": "KES 121,654.00",
+      "credit": "KES 122,000.00",
+      "balance": "KES -346.00"
     }
   },
-  "peter": {
-    "studentId": "peter",
-    "studentName": "Peter Mwangi Kariuki",
-    "regNo": "SCT213-C005-0009/2018",
-    "programme": "Bachelor of Science in Computer Science",
-    "department": "DEPARTMENT OF COMPUTER SCIENCE",
+  "lewis": {
+    "studentId": "lewis",
+    "studentName": "Lewis Ngurete Basara",
+    "regNo": "SCT213-C002-0045/2025",
+    "programme": "Bachelor of Science in Data Science and Analytics",
+    "department": "DEPARTMENT OF DATA SCIENCE AND ANALYTICS",
     "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
-    "studentType": "SSP",
-    "admissionYear": "2018",
-    "yearOfStudy": "6",
+    "studentType": "GSSP",
+    "admissionYear": "2025",
+    "yearOfStudy": "1",
     "semesters": [
       {
-        "title": "SEMESTER 2 2024/2025",
+        "title": "SEMESTER 2 2025/2026",
         "rows": [
           {
             "no": 1,
             "date": "10/02/2025",
             "ref": "SFI52009",
             "description": "STANDARD INVOICE",
-            "debit": "KES 17,800.00",
+            "debit": "KES 106,590.00",
             "credit": "KES 0.00",
-            "balance": "KES 17,800.00"
+            "balance": "KES 106,590.00"
           },
           {
             "no": 2,
