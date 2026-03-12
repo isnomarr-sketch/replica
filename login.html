@@ -243,11 +243,8 @@
       </div>
 
       <button class="login-btn" type="button" onclick="doLogin()">Sign In</button>
-      <p class="login-hint">
-        Demo accounts:
-        <strong>brian, alice, john, grace, peter</strong>
-        &nbsp;|&nbsp; password:
-        <strong>password</strong>
+      <p class="login-hint" id="loginHint">
+        Demo accounts will be shown once the student list loads.
       </p>
       <div class="login-error" id="loginError"></div>
     </div>
@@ -286,6 +283,7 @@
       loadStudents().finally(() => {
         if (btn) btn.disabled = false;
         onUsernameType();
+        updateHint();
       });
     });
 
@@ -305,6 +303,14 @@
       } else {
         wrap.style.display = 'none';
       }
+    }
+
+    /* Update the hint text once student data is available */
+    function updateHint() {
+      const hintEl = document.getElementById('loginHint');
+      if (!hintEl || !Array.isArray(STUDENTS) || STUDENTS.length === 0) return;
+      const names = STUDENTS.map(s => s.id).join(', ');
+      hintEl.innerHTML = `Demo accounts: <strong>${names}</strong> | password: <strong>password</strong>`;
     }
 
     /* Password eye toggle */
@@ -333,7 +339,8 @@
       const student = STUDENTS.find(s => s.id === username);
 
       if (!student) {
-        errEl.textContent = 'Username not found. Try: brian, alice, john, grace or peter.';
+        const valid = STUDENTS.map(s => s.id).join(', ');
+        errEl.textContent = `Username not found. Try: ${valid}.`;
         return;
       }
       if (password !== student.password) {
