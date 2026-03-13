@@ -5,7 +5,7 @@
     "regNo": "SCT213-C002-0057/2023",
     "name": "Reaggy Odhimbo",
     "programme": "Bachelor of Science in Data Science and Analytics",
-    "nationalId": "411339473",
+    "nationalId": "40929736",
     "dob": "2002-12-15",
     "gender": "Male",
     "marital": "Single",
@@ -75,7 +75,7 @@
     "feeBalance": "KES 50.00"
   },
   {
-    "id": "young",
+    "id": "yong",
     "password": "password",
     "regNo": "LSS201-C002-0116/2025",
     "name": "Young Joseph Ring",
