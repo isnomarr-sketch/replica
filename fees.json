@@ -571,6 +571,52 @@
       "credit": "KES 98,390.00",
       "balance": "KES 8,200.00"
     }
+  },
+  "kalu": {
+    "studentId": "kalu",
+    "studentName": "Kalu Silas",
+    "regNo": "TDB011-C002-0014/2025",
+    "programme": "Certificate in Business Management",
+    "department": "JKUAT TVET",
+    "schoolFaculty": "JKUAT TVET",
+    "studentType": "PSSP",
+    "admissionYear": "2025",
+    "yearOfStudy": "1",
+    "semesters": [
+      {
+        "title": "SEMESTER 1 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "06/09/2025",
+            "ref": "SFI60001",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 32,500.00",
+            "credit": "KES 32,500.00",
+            "balance": "KES 0.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "15/01/2026",
+            "ref": "SFI60002",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 31,000.00",
+            "credit": "KES 31,000.00",
+            "balance": "KES 0.00"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "debit": "KES 63,500.00",
+      "credit": "KES 63,500.00",
+      "balance": "KES 0.00"
+    }
   }
 }
 
