@@ -564,12 +564,35 @@
             "balance": "KES 8,200.00"
           }
         ]
+      },
+      {
+        "title": "SEMESTER 2 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/01/2026",
+            "ref": "SFI52002",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 106,590.00",
+            "credit": "KES 0.00",
+            "balance": "KES 114,790.00"
+          },
+          {
+            "no": 2,
+            "date": "15/02/2026",
+            "ref": "759642",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 40,000.00",
+            "balance": "KES 4,790.00"
+          }
+        ]
       }
     ],
     "totals": {
-      "debit": "KES 106,590.00",
-      "credit": "KES 98,390.00",
-      "balance": "KES 8,200.00"
+      "debit": "KES 213,180.00",
+      "credit": "KES 138,390.00",
+      "balance": "KES 74,790.00"
     }
   },
   "kalu": {
