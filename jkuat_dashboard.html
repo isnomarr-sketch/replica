@@ -1068,7 +1068,7 @@ function renderCurrentStudentFees() {
 
   var semesters = (data.semesters || []).slice();
   var yos = parseInt(data.yearOfStudy, 10);
-  if (!isNaN(yos) && yos > 0) {
+  if (semesters.length === 0 && !isNaN(yos) && yos > 0) {
     var desiredCount = yos * 2;
     if (semesters.length < desiredCount) {
       var rb = 0;
@@ -1120,7 +1120,6 @@ function renderCurrentStudentFees() {
     (sem.rows || []).forEach(function(row) {
       totalDebit += toNumberKes(row.debit);
       totalCredit += toNumberKes(row.credit);
-      finalBalance = toNumberKes(row.balance);
       var tr = document.createElement('tr');
       tr.innerHTML =
         '<td>' + (row.no || '') + '</td>' +
@@ -1139,6 +1138,8 @@ function renderCurrentStudentFees() {
     wrap.appendChild(scroller);
     container.appendChild(wrap);
   });
+
+  finalBalance = totalDebit - totalCredit;
 
   // Top "Fee Balance" line uses the computed final balance for consistency.
   setText('feesBalanceText', formatKes(finalBalance, true));

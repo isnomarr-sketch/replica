@@ -617,6 +617,162 @@
       "credit": "KES 63,500.00",
       "balance": "KES 0.00"
     }
+  },
+  "martin": {
+    "studentId": "martin",
+    "studentName": "Martin Ouma Okola",
+    "regNo": "SCT213-C002-0058/2023",
+    "programme": "Bachelor of Science in Data Science and Analytics",
+    "department": "DEPARTMENT OF INFORMATION TECHNOLOGY",
+    "schoolFaculty": "SCHOOL OF COMPUTING AND INFORMATION TECHNOLOGY (SCIT)",
+    "studentType": "GSSP",
+    "admissionYear": "2023",
+    "yearOfStudy": "3",
+    "semesters": [
+      {
+        "title": "SEMESTER 1 2023/2024",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/09/2023",
+            "ref": "SFI10001",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 106,590.00",
+            "credit": "KES 0.00",
+            "balance": "KES 106,590.00"
+          },
+          {
+            "no": 2,
+            "date": "15/09/2023",
+            "ref": "759642",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 106,590.00",
+            "balance": "KES 0.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2023/2024",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/01/2024",
+            "ref": "SFI10002",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 106,590.00",
+            "credit": "KES 0.00",
+            "balance": "KES 106,590.00"
+          },
+          {
+            "no": 2,
+            "date": "15/01/2024",
+            "ref": "759643",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 106,590.00",
+            "balance": "KES 0.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 1 2024/2025",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/09/2024",
+            "ref": "SFI10003",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 106,590.00",
+            "credit": "KES 0.00",
+            "balance": "KES 106,590.00"
+          },
+          {
+            "no": 2,
+            "date": "15/09/2024",
+            "ref": "759644",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 106,590.00",
+            "balance": "KES 0.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2024/2025",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/01/2025",
+            "ref": "SFI10004",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 106,590.00",
+            "credit": "KES 0.00",
+            "balance": "KES 106,590.00"
+          },
+          {
+            "no": 2,
+            "date": "15/01/2025",
+            "ref": "759645",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 106,590.00",
+            "balance": "KES 0.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 1 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/09/2025",
+            "ref": "SFI10005",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 106,590.00",
+            "credit": "KES 0.00",
+            "balance": "KES 106,590.00"
+          },
+          {
+            "no": 2,
+            "date": "15/09/2025",
+            "ref": "759646",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 106,590.00",
+            "balance": "KES 0.00"
+          }
+        ]
+      },
+      {
+        "title": "SEMESTER 2 2025/2026",
+        "rows": [
+          {
+            "no": 1,
+            "date": "01/01/2026",
+            "ref": "SFI10006",
+            "description": "STANDARD INVOICE",
+            "debit": "KES 106,590.00",
+            "credit": "KES 0.00",
+            "balance": "KES 106,590.00"
+          },
+          {
+            "no": 2,
+            "date": "23/01/2026",
+            "ref": "759647",
+            "description": "JKUAT CO-OPERATIVE BANK FEE COLLECTION",
+            "debit": "KES 0.00",
+            "credit": "KES 104,590.00",
+            "balance": "KES 2,000.00"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "debit": "KES 639,540.00",
+      "credit": "KES 637,540.00",
+      "balance": "KES 2,000.00"
+    }
   }
 }
 
