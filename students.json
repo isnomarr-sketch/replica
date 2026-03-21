@@ -173,5 +173,30 @@
     "degree2": "Data Science and Analytics",
     "progress": 75,
     "feeBalance": "KES 2,000.00"
+  },
+  {
+    "id": "sheldon",
+    "password": "password",
+    "regNo": "SCT213-C001-0089/2024",
+    "name": "Sheldon Ongenge",
+    "programme": "Bachelor of Science in Computer Science",
+    "nationalId": "42775152",
+    "dob": "2003-05-15",
+    "gender": "Male",
+    "marital": "Single",
+    "nationality": "Kenya",
+    "religion": "Christianity",
+    "source": "",
+    "disability": "NONE",
+    "language": "English",
+    "medical": "",
+    "coCurr": "Basketball",
+    "kcseIndex": "42775152/2023",
+    "kcseYear": "2023",
+    "semester": "SEMESTER 2 2025/2026",
+    "degree1": "Bachelor of Science Degree in",
+    "degree2": "Computer Science",
+    "progress": 50,
+    "feeBalance": "KES 5,500.00"
   }
 ]
