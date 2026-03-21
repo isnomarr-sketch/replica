@@ -1,11 +1,11 @@
 [
   {
-    "id": "reaggy",
+    "id": "swaleh",
     "password": "password",
     "regNo": "SCT213-C002-0057/2023",
-    "name": "Reaggy Odhimbo",
+    "name": "Swaleh Kibai",
     "programme": "Bachelor of Science in Data Science and Analytics",
-    "nationalId": "40929736",
+    "nationalId": "40377468",
     "dob": "2004-01-01",
     "gender": "Male",
     "marital": "Single",
@@ -75,12 +75,12 @@
     "feeBalance": "KES 50.00"
   },
   {
-    "id": "yong",
+    "id": "mark",
     "password": "password",
     "regNo": "LSS201-C002-0116/2025",
-    "name": "Yong Joseph Ring",
+    "name": "Mark Opondo",
     "programme": "Bachelor of Law",
-    "nationalId": "N/A",
+    "nationalId": "426827120",
     "dob": "2003-11-14",
     "gender": "Male",
     "marital": "Single",

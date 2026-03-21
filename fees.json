@@ -1,7 +1,7 @@
 {
-  "reaggy": {
-    "studentId": "reaggy",
-    "studentName": "Reaggy Odhimbo",
+  "swaleh": {
+    "studentId": "swaleh",
+    "studentName": "Swaleh Kibai",
     "regNo": "SCT213-C002-0057/2023",
     "programme": "B.SC. Data Science and Analytics",
     "department": "DEPARTMENT OF INFORMATION TECHNOLOGY",
@@ -467,9 +467,9 @@
       "balance": "KES 50.00"
     }
   },
-  "yong": {
-    "studentId": "yong",
-    "studentName": "Yong Joseph Ring",
+  "mark": {
+    "studentId": "mark",
+    "studentName": "Mark Opondo",
     "regNo": "LSS201-C002-0116/2025",
     "programme": "Bachelor of Law",
     "department": "DEPARTMENT OF LAW",
